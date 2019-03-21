@@ -10,6 +10,8 @@
 		A9C55ED02243E8F300A0FEAE /* message_view.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C55EC62243E8F300A0FEAE /* message_view.framework */; };
 		A9C55ED52243E8F300A0FEAE /* message_viewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C55ED42243E8F300A0FEAE /* message_viewTests.swift */; };
 		A9C55ED72243E8F300A0FEAE /* message_view.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C55EC92243E8F300A0FEAE /* message_view.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9C55EE12243E8FD00A0FEAE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A9C55EE02243E8FD00A0FEAE /* .gitignore */; };
+		A9C55EE32243E93100A0FEAE /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = A9C55EE22243E93100A0FEAE /* .gitattributes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		A9C55ECF2243E8F300A0FEAE /* message-viewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "message-viewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C55ED42243E8F300A0FEAE /* message_viewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = message_viewTests.swift; sourceTree = "<group>"; };
 		A9C55ED62243E8F300A0FEAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C55EE02243E8FD00A0FEAE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A9C55EE22243E93100A0FEAE /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 		A9C55EBC2243E8F200A0FEAE = {
 			isa = PBXGroup;
 			children = (
+				A9C55EE22243E93100A0FEAE /* .gitattributes */,
+				A9C55EE02243E8FD00A0FEAE /* .gitignore */,
 				A9C55EC82243E8F300A0FEAE /* message-view */,
 				A9C55ED32243E8F300A0FEAE /* message-viewTests */,
 				A9C55EC72243E8F300A0FEAE /* Products */,
@@ -177,6 +183,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C55EE12243E8FD00A0FEAE /* .gitignore in Resources */,
+				A9C55EE32243E93100A0FEAE /* .gitattributes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
