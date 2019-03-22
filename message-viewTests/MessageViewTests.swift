@@ -1,5 +1,5 @@
 //
-//  message_viewTests.swift
+//  MessageViewTests.swift
 //  message-viewTests
 //
 //  Created by Astemir Eleev on 21/03/2019.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import message_view
 
-class message_viewTests: XCTestCase {
+class MessageViewTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
