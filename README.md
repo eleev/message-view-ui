@@ -42,6 +42,8 @@ Please wait while the `.gif` files are loading... (they are about `25Mb`)
   - You may tell the component to dismiss itself after a number of seconds or do it manually.
 - **Autolayout**
   - You don't need to do anything related to autolayout - the component properly handles everything.
+- **Customize icons**  
+  - You can supply your own icon and programmtically set its color.
   
 # 📚 Code Samples
 
