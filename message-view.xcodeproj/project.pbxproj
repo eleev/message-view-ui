@@ -86,6 +86,10 @@
 		A9C55F0C2244FCAE00A0FEAE /* DemoTalbeViewDataSoruce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTalbeViewDataSoruce.swift; sourceTree = "<group>"; };
 		A9C55F0E2244FCC300A0FEAE /* DemoTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewDelegate.swift; sourceTree = "<group>"; };
 		A9C55F102244FCD500A0FEAE /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		A9C55F132245005C00A0FEAE /* warning_demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = warning_demo.gif; sourceTree = "<group>"; };
+		A9C55F142245005D00A0FEAE /* custom_demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = custom_demo.gif; sourceTree = "<group>"; };
+		A9C55F152245005D00A0FEAE /* success_demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = success_demo.gif; sourceTree = "<group>"; };
+		A9C55F162245005D00A0FEAE /* activity_demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = activity_demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 			children = (
 				A9C55EE22243E93100A0FEAE /* .gitattributes */,
 				A9C55EE02243E8FD00A0FEAE /* .gitignore */,
+				A9C55F122245004900A0FEAE /* assets */,
 				A9C55EC82243E8F300A0FEAE /* message-view */,
 				A9C55ED32243E8F300A0FEAE /* message-viewTests */,
 				A9C55EF42243EA4C00A0FEAE /* demo */,
@@ -183,6 +188,17 @@
 				A9C55F012243EA4D00A0FEAE /* Info.plist */,
 			);
 			path = demo;
+			sourceTree = "<group>";
+		};
+		A9C55F122245004900A0FEAE /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				A9C55F162245005D00A0FEAE /* activity_demo.gif */,
+				A9C55F142245005D00A0FEAE /* custom_demo.gif */,
+				A9C55F152245005D00A0FEAE /* success_demo.gif */,
+				A9C55F132245005C00A0FEAE /* warning_demo.gif */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
