@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+    spec.license      = { :type => "MIT", :file => "LICENSE" }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/jVirus/message-view.git", :tag => s.version.to_s }
+  spec.source       = { :git => "https://github.com/jVirus/message-view.git", :tag => spec.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files = "message-view/**/*.swift"
+  spec.source_files = "message-view/**/*.swift"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -133,8 +133,8 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
 
-    s.requires_arc = true
-    s.pod_target_xcconfig  = { 'SWIFT_VERSION' => '4.2' }
-    s.swift_version = "4.2"
+    spec.requires_arc = true
+    spec.pod_target_xcconfig  = { 'SWIFT_VERSION' => '4.2' }
+    spec.swift_version = "4.2"
 
 end
