@@ -3,6 +3,7 @@
 [![Platforms](https://img.shields.io/badge/platform-iOS-yellow.svg)]()
 [![Language](https://img.shields.io/badge/language-Swift-orange.svg)]()
 [![Autolayout](https://img.shields.io/badge/autolayout-enabled-blue.svg)]()
+[![Build Status](https://travis-ci.org/jVirus/message-view.svg?branch=master)](https://travis-ci.org/jVirus/message-view)
 [![CocoaPod](https://img.shields.io/badge/pod-1.0.0-lightblue.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
