@@ -64,6 +64,7 @@
 
 /* Begin PBXFileReference section */
 		A9845674224528DB00CFE174 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		A9845676224531AE00CFE174 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A9C55EC62243E8F300A0FEAE /* message_view.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = message_view.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C55EC92243E8F300A0FEAE /* message_view.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = message_view.h; sourceTree = "<group>"; };
 		A9C55ECA2243E8F300A0FEAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 		A9C55EBC2243E8F200A0FEAE = {
 			isa = PBXGroup;
 			children = (
+				A9845676224531AE00CFE174 /* LICENSE */,
 				A9845674224528DB00CFE174 /* .travis.yml */,
 				A9C55EE22243E93100A0FEAE /* .gitattributes */,
 				A9C55EE02243E8FD00A0FEAE /* .gitignore */,
