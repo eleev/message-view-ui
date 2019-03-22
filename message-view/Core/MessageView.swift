@@ -85,7 +85,7 @@ public final class MessageView: UIView {
     
     // MARK: - Methods
     
-    /// Presents message with an activity indicator view. The intention behind this presentation is to report some long running, indefined task.
+    /// Presents message with an activity indicator view. The intention behind this presentation is to report some long running task.
     ///
     /// - Parameters:
     ///   - message: is an optioanl `String` message that will be displayed below the activity indicator
