@@ -1,6 +1,6 @@
-# message-view [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# message-view-ui [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-[![Build Status](https://travis-ci.org/jVirus/message-view.svg?branch=master)](https://travis-ci.org/jVirus/message-view)
+[![Build](https://github.com/jvirus/message-view-ui/workflows/Build/badge.svg)]()
 [![Platforms](https://img.shields.io/badge/Platform-iOS-yellow.svg)]()
 [![Language](https://img.shields.io/badge/Language-Swift_5.1-orange.svg)]()
 [![Autolayout](https://img.shields.io/badge/Autolayout-Supported-blue.svg)]()
@@ -15,16 +15,6 @@
 
 # ✍️ About
 ✉️ Easy to use HUD component for iOS [activity report, success or warning messages, etc.]
-
-# 🏗 Installation
-## CocoaPods
-`message-view` is available via `CocoaPods`
-
-```
-pod 'message-view', '~> 1.0.0' 
-```
-## Manual
-You can always use `copy-paste` the sources method 😄. Or you can compile the framework and include it with your project.
 
 # 📺 Demo
 Please wait while the `.gif` files are loading... (they are about `25Mb`)
@@ -125,6 +115,29 @@ public struct MessageViewNightStyleBuilder: MessageViewBuilder {
 
 MessageView.configure(with: MessageViewNightStyleBuilder())
 ```
+
+## Swift Package Manager
+
+### Xcode 11+
+
+1. Open `MenuBar` → `File` → `Swift Packages` → `Add Package Dependency...`
+2. Paste the package repository url `https://github.com/jVirus/message-view-ui` and hit `Next`.
+3. Select the installment rules.
+
+After specifying which version do you want to install, the package will be downloaded and attached to your project. 
+
+### Package.swift
+If you already have a `Package.swift` or you are building your own package simply add a new dependency:
+
+```swift
+dependencies: [
+    .package(url: "`https://github.com/jVirus/message-view-ui", from: "1.0.0")
+]
+```
+
+## Manual 
+You can always use copy-paste the sources method 😄. Or you can compile the framework and include it with your project.
+
 
 # 👨‍💻 Author 
 [Astemir Eleev](https://github.com/jVirus)
