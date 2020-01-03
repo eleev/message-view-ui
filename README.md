@@ -5,7 +5,7 @@
 [![Language](https://img.shields.io/badge/Language-Swift_5.1-orange.svg)]()
 [![Autolayout](https://img.shields.io/badge/Autolayout-Supported-blue.svg)]()
 [![SPM](https://img.shields.io/badge/SPM-Supported-lightblue.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)]()
 
 **Last Update: 03/January/2020.**
 
