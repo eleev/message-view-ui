@@ -143,5 +143,4 @@ You can always use copy-paste the sources method 😄. Or you can compile the fr
 [Astemir Eleev](https://github.com/jVirus)
 
 # 🔖 Licence
-The project is available under [MIT licence](https://github.com/jVirus/message-view/blob/master/LICENSE). 
-The project uses [icons](https://icons8.com) under [following conditions](https://icons8.com/license). 
+The project is available under [MIT licence](https://github.com/jVirus/message-view/blob/master/LICENSE).  
